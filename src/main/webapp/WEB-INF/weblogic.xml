@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-web-app
+	xmlns="http://www.bea.com/ns/weblogic/90"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<!--Here we have defined the mapping between groups on the container and 
+		our application roles -->
+	<security-role-assignment>
+		<role-name>ADMIN</role-name>
+		<principal-name>AP-ADMIN</principal-name>
+	</security-role-assignment>
+	<security-role-assignment>
+		<role-name>VIEWER</role-name>
+		<principal-name>AP-VIEWER</principal-name>
+	</security-role-assignment>
+	<session-descriptor>
+		<timeout-secs>150</timeout-secs>
+		<invalidation-interval-secs>50</invalidation-interval-secs>
+	</session-descriptor>
+	<context-root>SamlServiceProvider</context-root>
+</weblogic-web-app>
