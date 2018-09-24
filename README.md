@@ -2,7 +2,6 @@
 # Saml Service Provider Saml Application
 
 This is a sample application to test the SSO Configuration
-Therea 
 # Prerequisites
   - Configure SSO Authentication on your Weblogic Server following the tutorial [Saml Step-By-Step Configuration](https://medium.com/@donaldlika/single-sign-on-weblogic-configuration-service-provider-initiated-using-saml2-as-protocol-5af293f76321)
 
